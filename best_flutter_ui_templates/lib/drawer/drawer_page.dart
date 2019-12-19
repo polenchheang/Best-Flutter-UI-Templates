@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'home_drawer.dart';
+import 'module/drawer.dart';
 
 class DrawerPage extends StatelessWidget {
   final drawerWidth;
@@ -37,7 +37,7 @@ class DrawerPage extends StatelessWidget {
             child: SizedBox(
               height: MediaQuery.of(context).size.height,
               width: drawerWidth,
-              child: HomeDrawer(
+              child: AppDrawer(
                 screenIndex: selectedScreenIndex == null
                     ? DrawerIndex.HOME
                     : selectedScreenIndex,

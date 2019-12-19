@@ -1,6 +1,6 @@
 import 'package:best_flutter_ui_templates/app_theme.dart';
-import 'package:best_flutter_ui_templates/custom_drawer/home_drawer.dart';
-import 'package:best_flutter_ui_templates/custom_drawer/pages_container_with_drawer.dart';
+import 'package:best_flutter_ui_templates/drawer/module/drawer.dart';
+import 'package:best_flutter_ui_templates/drawer/pages_container_with_drawer.dart';
 import 'package:best_flutter_ui_templates/feedback_screen.dart';
 import 'package:best_flutter_ui_templates/help_screen.dart';
 import 'package:best_flutter_ui_templates/home_page.dart';

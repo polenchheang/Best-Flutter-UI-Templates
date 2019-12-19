@@ -1,9 +1,10 @@
 import 'package:best_flutter_ui_templates/app_theme.dart';
-import 'package:best_flutter_ui_templates/custom_drawer/animators/drawer_icon_animator.dart';
-import 'package:best_flutter_ui_templates/custom_drawer/animators/drawer_scroll_animator.dart';
-import 'package:best_flutter_ui_templates/custom_drawer/drawer_page.dart';
-import 'package:best_flutter_ui_templates/custom_drawer/home_drawer.dart';
+import 'package:best_flutter_ui_templates/drawer/drawer_page.dart';
+import 'package:best_flutter_ui_templates/drawer/module/drawer.dart';
 import 'package:flutter/material.dart';
+
+import 'animators/drawer_icon_animator.dart';
+import 'animators/drawer_scroll_animator.dart';
 
 class PagesContainerWithDrawer extends StatefulWidget {
   const PagesContainerWithDrawer({

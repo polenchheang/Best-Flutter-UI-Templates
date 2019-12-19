@@ -1,5 +1,6 @@
-import 'package:best_flutter_ui_templates/custom_drawer/animators/drawer_icon_animator.dart';
 import 'package:flutter/material.dart';
+
+import 'drawer_icon_animator.dart';
 
 class DrawerScrollAnimator {
   ScrollController scrollController;
